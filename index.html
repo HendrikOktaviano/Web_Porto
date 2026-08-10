@@ -28,21 +28,22 @@
   <!-- NAVBAR -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
-      <div class="nav-center">
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#home" class="nav-link active">Beranda</a></li>
-          <li><a href="#about" class="nav-link">Profil</a></li>
-          <li><a href="#techstack" class="nav-link">Tools</a></li>
-          <li><a href="#skills" class="nav-link">Keahlian</a></li>
-          <li><a href="#projects" class="nav-link">Projek</a></li>
-          <li><a href="#achievements" class="nav-link">Perjalanan</a></li>
-          <li><a href="#contact" class="nav-link">Kontak</a></li>
-        </ul>
-      </div>
+      <!-- Logo: visible on mobile -->
+      <a href="#home" class="nav-logo" id="navLogo"><span class="logo-bracket">&lt;</span>Hendrik<span class="logo-bracket">/&gt;</span></a>
+      <!-- Nav links: center on desktop, overlay on mobile -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Beranda</a></li>
+        <li><a href="#about" class="nav-link">Profil</a></li>
+        <li><a href="#techstack" class="nav-link">Tools</a></li>
+        <li><a href="#skills" class="nav-link">Keahlian</a></li>
+        <li><a href="#projects" class="nav-link">Projek</a></li>
+        <li><a href="#achievements" class="nav-link">Perjalanan</a></li>
+        <li><a href="#contact" class="nav-link">Kontak</a></li>
+      </ul>
       <div class="nav-right">
         <div class="nav-divider"></div>
         <button class="lang-btn"><i class="fas fa-globe"></i> ID</button>
-        <a href="https://drive.google.com/file/d/1PRoKOmE97hs2wwnLSqAVfY55LzPXqSiV/view?usp=sharing" class="cv-btn" id="cvDownloadBtn" target="_blank" rel="noopener noreferrer">Unduh CV <i class="fas fa-download"></i></a>
+        <a href="https://drive.google.com/file/d/1PRoKOmE97hs2wwnLSqAVfY55LzPXqSiV/view?usp=sharing" class="cv-btn" id="cvDownloadBtn" target="_blank" rel="noopener noreferrer">CV <i class="fas fa-download"></i></a>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
           <span></span><span></span><span></span>
         </button>
@@ -871,7 +872,6 @@
       <div class="footer-brand">
         <a href="#home" class="nav-logo" style="color:var(--white);"><span class="logo-bracket">&lt;</span>Hendrik<span
             class="logo-bracket">/&gt;</span></a>
-        <p class="footer-tagline">Dirancang dengan semangat untuk IoT &amp; Teknologi Cerdas ✨</p>
       </div>
       <div class="footer-links">
         <a href="#home" class="footer-link">Beranda</a>
@@ -891,8 +891,6 @@
       </div>
       <div class="footer-copy">
         <p>&copy; 2026 Hendrik Oktaviano. Semua hak cipta dilindungi.</p>
-        <p>Dibuat dengan <i class="fas fa-heart" style="color:#FFB3C6;"></i> dan banyak <i class="fas fa-microchip"
-            style="color:#A8DADC;"></i></p>
       </div>
     </div>
   </footer>
